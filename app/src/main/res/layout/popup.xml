@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="#e090ad">
+
+    <TextView
+        android:id="@+id/pBartext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_margin="30dp"
+        android:textSize="22sp"
+        android:textColor="#00312e"
+        android:text="This is a popup window."/>
+
+
+    <ProgressBar
+        android:id="@+id/pBar"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/pBartext"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="-23dp"
+        android:max="100"
+        android:progress="50" />
+
+
+</RelativeLayout>
